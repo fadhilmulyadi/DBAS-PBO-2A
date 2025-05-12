@@ -24,10 +24,7 @@ public class PlayManager { // u/ play areanya, manage tetromino, dan handling ga
         right_x = left_x + WIDHT;
         top_y = 50;
         bottom_y = top_y + HEIGHT;
-    }
-    public void update() {
 
-    }
     public void draw(Graphics2D g2) {
         
         //Frame play areanya (Main Frame)
