@@ -35,8 +35,38 @@ Untuk menjalankan program ini, ikuti langkah-langkah berikut:
    java main.Main
    ```
 
-4. **Kontrol Permainan**:
-   - Gunakan tombol panah (↑, ↓, ←, →) untuk menggerakkan dan memutar blok.
-   - Tekan tombol spasi untuk menjeda permainan.
+# Kontrol Permainan
 
-Selamat bermain!
+Dalam permainan **Dynamic Block Allocation System**, Anda dapat mengontrol blok yang jatuh menggunakan keyboard. Berikut adalah penjelasan lengkap mengenai kontrol permainan:
+
+## Kontrol Dasar
+
+- **Tombol Panah Atas (↑)**: 
+  - **Fungsi**: Memutar blok saat ini.
+  - **Deskripsi**: Menekan tombol ini akan memutar blok ke arah yang sesuai, memungkinkan Anda untuk menyesuaikan posisi blok agar lebih cocok dengan ruang yang tersedia.
+
+- **Tombol Panah Bawah (↓)**: 
+  - **Fungsi**: Menurunkan blok saat ini.
+  - **Deskripsi**: Menekan tombol ini akan membuat blok bergerak ke bawah satu langkah. Jika blok tidak menyentuh bagian bawah atau blok statis lainnya, blok akan turun.
+
+- **Tombol Panah Kiri (←)**: 
+  - **Fungsi**: Menggerakkan blok ke kiri.
+  - **Deskripsi**: Menekan tombol ini akan memindahkan blok saat ini ke kiri satu langkah, selama tidak ada tabrakan dengan batas kiri atau blok statis lainnya.
+
+- **Tombol Panah Kanan (→)**: 
+  - **Fungsi**: Menggerakkan blok ke kanan.
+  - **Deskripsi**: Menekan tombol ini akan memindahkan blok saat ini ke kanan satu langkah, selama tidak ada tabrakan dengan batas kanan atau blok statis lainnya.
+
+## Kontrol Tambahan
+
+- **Tombol Spasi**: 
+  - **Fungsi**: Menjeda dan melanjutkan permainan.
+  - **Deskripsi**: Menekan tombol spasi akan menghentikan permainan jika sedang berjalan. Jika permainan dijeda, menekan tombol spasi lagi akan melanjutkan permainan. Saat permainan dijeda, musik latar akan berhenti, dan saat dilanjutkan, musik akan diputar kembali.
+
+## Catatan
+
+- **Posisi Blok**: Pastikan untuk memutar dan menggerakkan blok dengan bijak agar dapat mengisi ruang yang tersedia tanpa meninggalkan celah. Jika blok tidak dapat ditempatkan dengan benar, permainan akan berakhir.
+  
+- **Cherry On Top**: Setiap kali Anda memutar atau menggerakkan blok, efek suara akan diputar untuk memberikan umpan balik kepada pemain.
+
+Selamat bermain! Barudak, Well!
